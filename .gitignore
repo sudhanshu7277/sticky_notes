@@ -21,6 +21,9 @@ pnpm-debug.log*
 .env.test.local
 .env.production.local
 .env.*.local
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
 # Editor directories and files
 .vscode/*
