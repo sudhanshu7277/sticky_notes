@@ -1,0 +1,45 @@
+:root {
+  --primary: #2563eb;
+  --bg-grid: #e5e7eb;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  overflow: hidden;
+}
+
+.canvas {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f8fafc;
+  background-image: radial-gradient(var(--bg-grid) 1px, transparent 1px);
+  background-size: 24px 24px;
+  position: relative;
+}
+
+.add-btn {
+  position: fixed;
+  top: 24px;
+  left: 24px;
+  padding: 12px 20px;
+  background: white;
+  color: #1e293b;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.add-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-color: var(--primary);
+  color: var(--primary);
+}

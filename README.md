@@ -1,4 +1,15 @@
 # sticky_notes
+
+
+STEPS TO RUN:
+
+1) Clone the repo : https://github.com/sudhanshu7277/sticky_notes.git
+2) cd sticky_notes folder.
+3) run command: npm install
+4) run command: npm start
+4) open browser with and run the application on url: http://localhost:3000/
+
+
 Small application to add sticky notes and delete the notes.
 
 Hiring – Front-end developer: Sticky notes TS
